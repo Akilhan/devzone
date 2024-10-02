@@ -43,18 +43,18 @@ export default function DevZoneLanding() {
 
                   <Button className="bg-white text-black hover:bg-zinc-200">
                     Apply Now
-                    
+
                   </Button>
 
                 </Link>
 
                 <Link href='https://docs.google.com/document/d/11R5O87G_dadfZapx4ZrylfKy-iLNMnRl7hIsmAM-Zws/edit?usp=sharing' target='_blank'>
-<Button variant="outline" className="bg-[#18181b] text-white hover:text-[#18181b] ">
-                  Learn More
-                </Button>
+                  <Button variant="outline" className="bg-[#18181b] text-white hover:text-[#18181b] ">
+                    Learn More
+                  </Button>
                 </Link>
 
-                
+
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function DevZoneLanding() {
                 "Promote diversity and inclusion in the tech industry",
               ].map((goal, index) => (
                 <li key={index} className="flex items-center space-x-2">
-                  <CheckCircle className="h-6 w-6 text-primary" />
+                  <CheckCircle className="h-6 w-6 text-[#020817]" />
                   <span>{goal}</span>
                 </li>
               ))}
