@@ -39,7 +39,8 @@ export default function DevZoneLanding() {
               <div className="space-x-4">
                 <Link
                   href='https://forms.gle/eLKYJzNSZjjSjzfX8'
-                  target="_blank">
+                  target="_blank"
+                  aria-label="Open Google Docs document titled 'DevZone Curriculum Outline'">
 
                   <Button className="bg-white text-black hover:bg-zinc-200">
                     Apply Now
@@ -48,11 +49,19 @@ export default function DevZoneLanding() {
 
                 </Link>
 
-                <Link href='https://docs.google.com/document/d/11R5O87G_dadfZapx4ZrylfKy-iLNMnRl7hIsmAM-Zws/edit?usp=sharing' target='_blank'>
-                  <Button variant="outline" className="bg-[#18181b] text-white hover:text-[#18181b] ">
-                    Learn More
-                  </Button>
-                </Link>
+              <Link
+  href="https://docs.google.com/document/d/11R5O87G_dadfZapx4ZrylfKy-iLNMnRl7hIsmAM-Zws/edit?usp=sharing"
+  target="_blank"
+  aria-label="Open Google Docs document titled 'DevZone Curriculum Outline'"
+>
+  <Button
+    variant="outline"
+    className="bg-[#18181b] text-white hover:text-[#18181b]"
+  >
+    View DevZone Curriculum
+  </Button>
+</Link>
+
 
 
               </div>
