@@ -43,6 +43,7 @@ export default function DevZoneLanding() {
 
                   <Button className="bg-white text-black hover:bg-zinc-200">
                     Apply Now
+                    
                   </Button>
 
                 </Link>
